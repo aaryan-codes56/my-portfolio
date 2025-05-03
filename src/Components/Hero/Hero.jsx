@@ -9,7 +9,7 @@ const Hero = () => {
         <h1><span>I'm Aaryan Krishna</span>, frontend developer and video editor.</h1>
         <p>I am an aspiring full stack developer. Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
         <div className="hero-action">
-            <div className="hero-connect">Connect with Me</div>
+            <div className="hero-connect">Connect with me</div>
             <div className="hero-projects">View Projects</div>
         </div>
     </div>
