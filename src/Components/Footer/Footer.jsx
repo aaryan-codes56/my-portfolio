@@ -3,9 +3,23 @@ import './Footer.css'
 
 const Footer = () => {
   return (
-    <div className='footer'>
-      
+    <>
+     <footer class="site-footer">
+  <hr class="footer-divider" />
+  <div class="footer-content">
+    <p class="footer-text">© 2025 Aaryan Krishna. All rights reserved.</p>
+    <div class="social-links">
+      <a href="https://www.linkedin.com/in/your-linkedin" class="social-icon" alt="LinkedIn">
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+      <a href="https://github.com/your-github" class="social-icon" alt="GitHub">
+        <i class="fa-brands fa-github"></i>
+      </a>
     </div>
+  </div>
+</footer>
+
+      </>
   )
 }
 
