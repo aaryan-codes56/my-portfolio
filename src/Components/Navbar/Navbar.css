@@ -12,6 +12,7 @@
     gap: 80px;
     font-size: 20px;
     color: #B0A6DF;
+    transition: 0.3s ease;
 }
 
 .nav-connect{
@@ -26,7 +27,7 @@
 
 .nav-connect:hover{
     transform: scale(1.05);
-    .anchor-link{
+    .connect-link{
         color: #fff;
         transition: 0.3s ease;
     }
@@ -45,6 +46,17 @@
 }
 
 .anchor-link{
+    text-decoration: none;
+    color: #B0A6DF;
+    transition: 0.3s ease;
+}
+
+.anchor-link:hover{
+    color: #fff;
+    transition: 0.3s ease;
+}
+
+.connect-link{
     text-decoration: none;
     color: #B0A6DF;
     transition: 0.3s ease;

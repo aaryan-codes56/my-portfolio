@@ -15,7 +15,7 @@ const Navbar = () => {
             <li><a className='anchor-link' href="#contact">Contact</a></li>
         </ul>
         <div className="nav-connect">
-          <a className='anchor-link' href="https://www.linkedin.com/in/aaryan-krishna-840217317">Connect with me</a>
+          <a className='connect-link' href="https://www.linkedin.com/in/aaryan-krishna-840217317">Connect with me</a>
         </div>
     </div>
   )
