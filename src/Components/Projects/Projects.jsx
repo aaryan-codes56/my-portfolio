@@ -15,21 +15,28 @@ const Projects = () => {
         <h1>My Projects</h1>
         <img src={theme_pattern} alt="j=" />
       </div>
-      <div>
-        <ul className="project-list">
-          <li className="project-item">
-            <img src={project1_img} alt="" className='p-img'/>
-          </li>
-          <li className="project-item">
-            <img src={project2_img} alt="" className='p-img'/>
-          </li>
-          <li className="project-item">
-            <img src={project3_img} alt="" className='p-img' />
-          </li>
-          <li className="project-item">
-            <img src={project4_img} alt="" className='p-img'/>
-          </li>
-        </ul>
+      <div className='project-list'>
+        <div className="project-item">
+          <img src={project1_img} alt="" className='p-img'/>
+          <h2 className='p-title'>Project Name</h2>
+          <p className='p-descritpion'>Project description</p>
+         </div>
+         <div className="project-item">
+          <img src={project2_img} alt="" className='p-img'/>
+          <h2 className='p-title'>Project Name</h2>
+          <p className='p-descritpion'>Project description</p>
+         </div>
+         <div className="project-item">
+          <img src={project3_img} alt="" className='p-img'/>
+          <h2 className='p-title'>Project Name</h2>
+          <p className='p-descritpion'>Project description</p>
+         </div>
+         <div className="project-item">
+          <img src={project4_img} alt="" className='p-img'/>
+          <h2 className='p-title'>Project Name</h2>
+          <p className='p-descritpion'>Project description</p>
+         </div>
+        
       </div>
        <div className="my-work-showmore">
         <p>Show More</p>

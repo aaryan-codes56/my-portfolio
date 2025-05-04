@@ -6,23 +6,23 @@
     gap: 80px;
     margin: 80px 170px;
 }
-
 .project-list{
+    display: flex;
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 30px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
     display: grid;
-    grid-template-columns: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr;
 }
 
-.project-item{
-    overflow: hidden;
-    
-} 
+
 
 .my-work .p-img{
-      width: 100%;
-        height: 100%;
         border-radius: 10px;   
+        width: 100%;
+        height: 80%;
 } 
 
 .my-work-title{
@@ -42,17 +42,17 @@
     right: 0;
     z-index: -1;
 }
+.project-item{
+    border: 1px solid #B0A6DF;
+    ;
+    border-radius: 10px;
+    padding: 24px;
+}
 
 .project-list img{
     box-sizing: border-box;
     transition: 0.3s;
     cursor: pointer;
-}
-
-.project-list img:hover{
-    transform: scale(1.10);
-    border-radius: 10px;
-    transition: 0.3s;
 }
 
 .my-work-showmore{
