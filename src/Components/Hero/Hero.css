@@ -5,11 +5,13 @@
     justify-content: center;
 }
 
-.hero img {
-    margin-top: 20px;
-    width: 270px;
-    height: 270px;
+.pro-img{
+    width: 280px;
+    height: 280px;
     border-radius: 50%;
+    object-fit: cover;
+    user-select: none;
+    margin-top: 60px;
     margin-bottom: 40px;
     user-select: none;
 }
@@ -17,7 +19,7 @@
 .hero h1 {
     text-align: center;
     width: 70%;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 600;
 }
 
@@ -46,10 +48,10 @@
 .hero p{
     text-align: center;
     width: 50%;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 30px;
-    margin-top: 10px;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 
 .hero-action{
@@ -85,3 +87,14 @@
     background: linear-gradient(264deg, #681970, #410f8b);
     color: white;
 }
+
+.anchor-link1{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s ease;
+}
+
+.anchor-link1:hover{
+    transition: 0.3s ease;
+}
+

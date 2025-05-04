@@ -4,13 +4,17 @@ import profile_img from '../../assets/profile.png'
 
 const Hero = () => {
   return (
-    <div className='hero'>
-        <img src={profile_img} alt=""/>
-        <h1><span>I'm Aaryan Krishna</span>, frontend developer and video editor.</h1>
-        <p>I am an aspiring full stack developer. Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+    <div id='home' className='hero'>
+        <img src={profile_img} alt="" className='pro-img' />
+        <h1><span>I'm Aaryan Krishna</span>, Frontend Developer and Graphic Designer.</h1>
+        <p>I’m a Frontend Developer on my journey to becoming a Full Stack developer. I also work as a video editor and graphic designer, creating visually engaging and meaningful digital content.</p>
         <div className="hero-action">
-            <div className="hero-connect">Connect with me</div>
-            <div className="hero-projects">View Projects</div>
+            <div className="hero-connect">
+              <a className='anchor-link1' href="#contact">Get in touch</a>
+            </div>
+            <div className="hero-projects">
+              <a className='anchor-link1' href="#projects">View Projects</a>
+            </div>
         </div>
     </div>
   )
