@@ -117,3 +117,75 @@
     transform: scale(1.05);
     transition: 0.3s;
 }
+
+
+@media (max-width: 768px) {
+    .contact {
+      margin: 30px 20px;
+      gap: 60px;
+    }
+  
+    .contact-title h1 {
+      font-size: 48px;
+    }
+  
+    .contact-section {
+      flex-direction: column;
+      gap: 50px;
+      align-items: center;
+    }
+  
+    .contact-left,
+    .contact-right {
+      min-width: unset;
+      width: 100%;
+      max-width: 450px;
+    }
+  
+    .contact-left {
+      align-items: flex-start;
+    }
+  
+    .contact-left h1 {
+      font-size: 36px;
+      text-align: center;
+      width: 100%;
+    }
+  
+    .contact-left p {
+      font-size: 18px;
+      line-height: 28px;
+      max-width: 100%;
+      text-align: center;
+    }
+  
+    .contact-details {
+      font-size: 18px;
+      gap: 20px;
+      align-items: start;
+    }
+  
+    .contact-right label {
+      font-size: 18px;
+      align-self: flex-start;
+    }
+  
+    .contact-right input,
+    .contact-right textarea {
+      max-width: 100%;
+      font-size: 18px;
+      box-sizing: border-box; 
+    }
+  
+    .contact-right textarea {
+      min-height: 150px; 
+    }
+  
+    .contact-submit {
+      font-size: 18px;
+      padding: 18px 50px;
+      margin: 1em auto 0;
+      display: block;
+    }
+  }
+  

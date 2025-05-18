@@ -174,3 +174,38 @@
     color: white;
     transition: 0.6s;
 }
+
+
+@media (max-width: 768px) {
+    .my-work {
+      margin: 40px 40px;
+      gap: 50px;
+    }
+  
+    .my-work-title h1 {
+      font-size: 40px;
+      text-align: center;
+    }
+  
+    .my-work-title img {
+      width: 120px;
+      right: 10px;
+      bottom: -5px;
+    }
+  
+    .project-btns {
+      flex-direction: column;
+      gap: 15px;
+    }
+  
+    .project-btns button {
+      width: 100%;
+      padding: 12px 0;
+      font-size: 15px;
+    }
+  
+    .my-work-showmore {
+      padding: 20px 40px;
+      font-size: 18px;
+    }
+}
