@@ -14,7 +14,7 @@ const Projects = () => {
     <div id="projects" className='my-work'>
       <div className="my-work-title">
         <h1>My Projects</h1>
-        <img src={theme_pattern} alt="j=" />
+        <img src={theme_pattern} alt="" />
       </div>
       <div className='project-list'>
 

@@ -71,16 +71,16 @@
     transition: 0.3s ease-in-out;
 }
 
-.hero-projects{
-    padding: 20px 40px;
-    border-radius: 50px;
-    border: 2px solid #FFF;
-    cursor: pointer;
-}
-
 .hero-connect:hover{
     transform: scale(1.05);
 
+}
+
+.hero-projects{
+    padding: 20px 30px;
+    border-radius: 50px;
+    border: 2px solid #FFF;
+    cursor: pointer;
 }
 
 .hero-projects:hover{
