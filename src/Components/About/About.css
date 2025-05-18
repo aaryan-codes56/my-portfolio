@@ -91,41 +91,45 @@
 
 @media (max-width: 768px) {
     .about {
-      margin: 60px 50px;
+      margin: 50px 60px;
+      align-items: start;
+      gap: 80px;
     }
   
     .about-title h1 {
       font-size: 48px;
+      padding: 0;
     }
   
     .about-section {
       flex-direction: column;
-      gap: 40px;
-    }
-  
-    .about .abt-img {
-      width: 220px;
-      height: 220px;
     }
   
     .about-para {
       font-size: 18px;
+      line-height: 32px;
+    }
+
+    .about-skill {
+      gap: 20px;
+      align-items: center;
     }
   
     .about-skill p {
-      font-size: 18px;
+      font-size: 20px;
+    }
+
+    .about-skill hr{
+      height: 6px;
     }
   
     .about-title img {
-      width: 120px;
-      right: 10px;
-      bottom: -5px;
+      width: 130px;
+      right: -30px;
     }
 
     .about-left {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        display: none;
       }
       
   }
