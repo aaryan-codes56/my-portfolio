@@ -84,3 +84,39 @@
   text-align: center;
   padding: 0 10px;
 }
+
+
+
+@media (max-width: 768px) {
+  .skills-section {
+    margin: 50px 40px;
+    gap: 50px;
+  }
+
+  .skills-title h1 {
+    font-size: 40px;
+    padding: 0 15px;
+  }
+
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .skill-card {
+    padding: 20px;
+  }
+
+  .skill-card h3 {
+    font-size: 18px;
+    margin: 16px 0;
+  }
+
+  .desc {
+    font-size: 13px;
+  }
+
+  .skills-title img {
+    position: absolute;
+    width: 120px;
+  }
+}

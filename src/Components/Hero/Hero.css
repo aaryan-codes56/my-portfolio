@@ -98,3 +98,33 @@
     transition: 0.3s ease;
 }
 
+
+
+@media (max-width: 768px) {
+    .pro-img {
+      width: 220px;
+      height: 220px;
+      margin-bottom: 70px;
+    }
+  
+    .hero h1 {
+      font-size: 32px;
+      width: 90%;
+    }
+  
+    .hero p {
+      width: 85%;
+      font-size: 18px;
+      line-height: 28px;
+    }
+  
+    .hero-action {
+      gap: 15px;
+    }
+  
+    .hero-connect,
+    .hero-projects {
+      padding: 15px 25px;
+      font-size: 18px;
+    }
+  }
