@@ -212,8 +212,8 @@
     }
 
     .project-list{
-        grid-template-columns: 1fr 1fr;
-        gap: 25px;
+        grid-template-columns: 1fr;
+        gap: 35px;
 
     }
 
