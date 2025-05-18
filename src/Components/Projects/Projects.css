@@ -5,85 +5,171 @@
     justify-content: center;
     gap: 80px;
     margin: 80px 170px;
+    cursor: pointer;
 }
-.project-list{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-    height: 100%;
-    justify-content: center;
-    align-items: center;
+
+.project-list {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    width: 100%;
+    justify-content: center;
+    align-items: stretch;
 }
 
+.my-work .p-img {
+    border-radius: 12px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
 
+.project-list img:hover {
+    transform: scale(1.03);
+}
 
-.my-work .p-img{
-        border-radius: 10px;   
-        width: 100%;
-        height: 80%;
-} 
-
-.my-work-title{
+.my-work-title {
     position: relative;
 }
 
-.my-work-title h1{
+.my-work-title h1 {
     margin-top: 100px;
     padding: 0 30px;
     font-size: 70px;
     font-weight: 500;
 }
 
-.my-work-title img{
+.my-work-title img {
     position: absolute;
     bottom: 0;
     right: 0;
     z-index: -1;
 }
-.project-item{
-    border: 1px solid #B0A6DF;
-    ;
-    border-radius: 10px;
+
+.project-item {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(176, 166, 223, 0.5);
+    border-radius: 16px;
     padding: 24px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
 }
 
-.project-list img{
-    box-sizing: border-box;
-    transition: 0.3s;
+.project-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 16px 40px rgba(104, 25, 112, 0.3);
+}
+
+.p-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 20px 0;
+    text-align: center;
+    color: #ffffff;
+}
+
+.p-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+    color: #cccccc;
+    line-height: 1.6;
+    padding: 0 10px;
+}
+
+.project-btns {
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.project-btns button {
+    padding: 14px 32px;
+    border-radius: 50px;
+    background: linear-gradient(264deg, #681970, #410f8b);
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
     cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(104, 25, 112, 0.3);
+    position: relative;
+    overflow: hidden;
 }
 
-.my-work-showmore{
+.project-btns button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(104, 25, 112, 0.5);
+}
+
+.project-btns button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -75%;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(
+        120deg,
+        rgba(255, 255, 255, 0.2),
+        rgba(255, 255, 255, 0.05)
+    );
+    transform: skewX(-25deg);
+}
+
+.project-btns button:hover::before {
+    left: 130%;
+    transition: left 0.7s ease;
+}
+
+.source-link {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+.my-work-showmore {
     display: flex;
     gap: 15px;
     border-radius: 50px;
     border: 2px solid white;
     padding: 30px 60px;
     font-size: 22px;
-    font-weight: 500px;
+    font-weight: 500;
     margin-bottom: 80px;
     cursor: pointer;
     transition: 0.6s;
-    
 }
 
-.my-work-showmore:hover{
+.my-work-showmore:hover {
     background: white;
     color: black;
-    transition: 0.6s;
     gap: 30px;
-    .more-link{
-        text-decoration: none;
-        color: black;
-        transition: 0.6s;
-    }
-    
-    
+    transition: 0.6s;
 }
 
-.more-link{
+.my-work-showmore:hover .more-link {
+    text-decoration: none;
+    color: black;
+    transition: 0.6s;
+}
+
+.more-link {
     text-decoration: none;
     color: white;
     transition: 0.6s;

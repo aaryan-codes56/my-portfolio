@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     gap: 80px;
-    margin: 80px 170px;
+    margin: 40px 150px;
 }
 
 .contact-title{
@@ -70,7 +70,7 @@
     display: flex;
     flex-direction: column;
     align-items: start;
-    gap: 30px;
+    gap: 20px;
 }
 
 .contact-right label{
@@ -81,9 +81,9 @@
 
 .contact-right input{
     border: none;
-    width: 700px;
-    height: 78px;
-    padding-left: 20px;
+    width: 600px;
+    height: 58px;
+    padding-left: 18px;
     background: #B0A6DF;
     color: black;
     font-size: 20px;
@@ -92,8 +92,8 @@
 
 .contact-right textarea{
     border: none;
-    width: 600px;
-    padding: 25px;
+    width: 550px;
+    padding: 20px;
     background: #B0A6DF;
     color: black;
     font-size: 20px;
@@ -102,14 +102,15 @@
 
 .contact-submit{
     border: none;
-    color: #d8d8d8;
+    color: #fff;
     border-radius: 50px;
     background: linear-gradient(264deg, #681970, #410f8b);
     font-size: 22px;
-    padding: 20px 60px;
+    padding: 22px 60px;
     margin-bottom: 50px;
     cursor: pointer;
     transition: 0.3s;
+    margin-top: 10px;
 }
 
 .contact-submit:hover{
