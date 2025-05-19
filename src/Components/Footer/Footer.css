@@ -55,14 +55,14 @@
     text-align: center;
     margin-left: 0;
     font-size: 15px;
-    order: 2; /* show below social links */
+    order: 2;
   }
 
   .social-links {
     position: static;
     transform: none;
     justify-content: center;
-    order: 1; /* show above text */
+    order: 1;
     gap: 25px;
   }
 

@@ -212,7 +212,7 @@
     }
 
     .project-list{
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
         gap: 35px;
 
     }
