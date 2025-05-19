@@ -79,7 +79,7 @@ const Projects = () => {
           </p>
           <div className='project-btns'>
           <button className='code-btn'><a href='https://github.com/aaryan-codes56/amara-home-service.git' className='source-link'>View Code</a></button>
-          <button className='demo-btn'><a href='#' className='source-link'>View Project</a></button>
+          <button className='demo-btn'><a href='https://amarasolutions.vercel.app/' className='source-link'>View Project</a></button>
           </div>
          </div>
         
